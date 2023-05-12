@@ -1,4 +1,4 @@
-package com.jx.order.pojo;
+package com.jx.order.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

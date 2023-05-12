@@ -1,6 +1,6 @@
 package com.jx.order.service;
 
-import com.jx.order.pojo.Order;
+import com.jx.order.entity.Order;
 import com.jx.order.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

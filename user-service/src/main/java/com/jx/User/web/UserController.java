@@ -1,6 +1,6 @@
 package com.jx.User.web;
 
-import com.jx.User.pojo.User;
+import com.jx.User.entity.User;
 import com.jx.User.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,10 +1,9 @@
 package com.jx.User.service;
 
-import com.jx.User.pojo.User;
+import com.jx.User.entity.User;
 import com.jx.User.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Optional;
 

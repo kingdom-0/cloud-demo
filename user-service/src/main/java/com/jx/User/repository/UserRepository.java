@@ -1,6 +1,6 @@
 package com.jx.User.repository;
 
-import com.jx.User.pojo.User;
+import com.jx.User.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

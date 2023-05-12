@@ -20,6 +20,10 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        cluster-name: HZ
+    loadbalancer:
+      nacos:
+        enabled: true
 logging:
   level:
     root: info
@@ -36,6 +40,7 @@ logging:
 #      defaultZone: http://localhost:10086/eureka
 
 #load balance rule(ribbon)
+# 使分区服务有限内部调用，必须设置负载均衡规则
 #userservice:
 #  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule

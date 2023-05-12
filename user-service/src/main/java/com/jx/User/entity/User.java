@@ -1,4 +1,4 @@
-package com.jx.User.pojo;
+package com.jx.User.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

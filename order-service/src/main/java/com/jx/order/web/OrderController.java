@@ -1,7 +1,7 @@
 package com.jx.order.web;
 
-import com.jx.order.pojo.Order;
-import com.jx.order.pojo.User;
+import com.jx.order.entity.Order;
+import com.jx.order.entity.User;
 import com.jx.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
