@@ -14,13 +14,13 @@ spring:
     show-sql: true
   thymeleaf:
     cache: false
-  application:
-    name: userservice
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-        cluster-name: SH
+#  application:
+#    name: userservice
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#        cluster-name: SH
 logging:
   level:
     root: info

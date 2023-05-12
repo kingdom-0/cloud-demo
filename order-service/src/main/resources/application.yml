@@ -21,6 +21,8 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
         cluster-name: HZ
+        #namespace: bf69a314-bc90-4d53-8af4-2988a1035938， 环境隔离
+        ephemeral: false #是否是临时实例
     loadbalancer:
       nacos:
         enabled: true
